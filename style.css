@@ -1,0 +1,310 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: Avantgarde, TeX Gyre Adventor,	URW Gothic L, sans-serif;
+	min-height: 1070px;
+}
+
+h3 {
+	display: block;
+	margin: 30px;
+}
+
+p {
+	display: block;
+	margin: 20px;
+}
+
+#page {
+	display: block;
+	width: 60%;
+	height: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#header {
+	display: block;
+	background: black;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+#main {
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.maintd {
+	padding: 20px;
+	font-size: 20px;
+	text-align: left;
+}
+
+#menu {
+	margin: 0 auto;
+}
+
+.htd {
+	min-width: 100px;	
+}
+
+#headera, #headera:active, #headera:visited {
+	color: aliceblue;
+	text-decoration: none;	
+}
+
+#headera:hover {
+	color: rgb(255, 122, 33);
+	text-decoration: none;
+}
+
+#title {
+	font-family: 'Apple Chancery', cursive;
+	font-style: italic;
+}
+
+#footer {
+	display: block;
+	width: 270px;
+	text-align: left;
+	position: relative;
+	top: 20;
+	bottom: 0;
+	top: 200px;
+	background: black;
+	padding: 0;
+	display: flex;
+}
+
+#footer-table {
+	width: 60%;
+	font-size: 12px;
+	color:aliceblue;
+	margin-top: 14px;
+	margin-bottom: 14px;
+	margin-left: 30px;
+	text-align: left;
+}
+
+#catalog {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr); 
+	grid-template-rows: repeat(1, 1fr);
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: inherit;
+}
+
+#product {
+	display: block;
+	position: relative;
+	margin: 30px;
+}
+
+select {
+	background-color: black;
+	color:aliceblue;
+	width: 140px;
+	height: 25px;
+	font-size: 14px;
+	border-radius: 5px;
+	text-align: center;
+	margin: 20px;
+}
+
+#abuy {	
+	display: block;
+	margin: auto;
+	background: black;
+	color: aliceblue;
+	width: 120px;
+	height: 20px;
+	font-size: 14px;
+	border-radius: 20px;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+	font-weight: bold;
+	line-height: 25px;
+}
+
+#abuy:active,
+#abuy:visited {
+	color: aliceblue;
+	text-decoration: none;
+}
+
+#abuy:hover {
+	color: rgb(255, 122, 33);
+	text-decoration: none;
+}
+
+#contacts {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#submit {
+	display: block;
+	margin: auto;
+	background: black;
+	color: aliceblue;
+	width: 160px;
+	height: 30px;
+	font-size: 14px;
+	border-radius: 20px;
+	text-align: center;
+	font-weight: bold;
+	line-height: 25px;
+}
+
+#submit:active,
+#submit:visited {
+	color: aliceblue;
+	text-decoration: none;
+}
+
+#submit:hover {
+	color: rgb(255, 122, 33);
+	text-decoration: none;
+}
+
+#order {
+	display: block;
+	justify-content: center;
+	align-items: center;
+	width: 440px;
+	border: 3px dashed black;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#number {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	background: black;
+	color: aliceblue;
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	text-align: center;
+	margin: auto;
+}
+
+/* div {
+	border: 1px solid black;
+} */
+
+#adel {
+	display: block;
+	margin: auto;
+	background: white;
+	color: black;
+	border: 2px solid black;
+	width: 120px;
+	height: 20px;
+	font-size: 14px;
+	border-radius: 20px;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+	font-weight: bold;
+	line-height: 25px;
+}
+
+#adel:active,
+#adel:visited {
+	color: black;
+	text-decoration: none;
+}
+
+#adel:hover {
+	color: rgb(255, 122, 33);
+	text-decoration: none;
+}
+
+#info {
+	display: block;
+	justify-content: center;
+	align-items: center;
+	width: 420px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#a-big-white {
+	display: block;
+	margin: 10px;
+	background: white;
+	color: black;
+	border: 2px solid black;
+	width: 280px;
+	height: 30px;
+	font-size: 16px;
+	border-radius: 25px;
+	text-align: center;
+	text-decoration: none;
+	padding: 11px;
+	font-weight: bold;
+	line-height: 25px;
+}
+
+#a-big-white:active,
+#a-big-white:visited {
+	color: black;
+	text-decoration: none;
+}
+
+#a-big-white:hover {
+	color: rgb(255, 122, 33);
+	text-decoration: none;
+}
+
+#a-big-black {
+	display: block;
+	margin: auto;
+	background: black;
+	color: white;
+	width: 280px;
+	height: 30px;
+	font-size: 16px;
+	border-radius: 25px;
+	text-align: center;
+	text-decoration: none;
+	padding: 11px;
+	font-weight: bold;
+	line-height: 25px;
+}
+
+#a-big-black:active,
+#a-big-black:visited {
+	color: white;
+	text-decoration: none;
+}
+
+#a-big-black:hover {
+	color: rgb(255, 122, 33);
+	text-decoration: none;
+}
+
+#end {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	padding: 20px;
+}
